@@ -42,10 +42,10 @@
 	width: 375px;
 	
 input {
-
+	background-repeat: no-repeat;
 }
 
-#voicesearch {
+#voice {
 	background: url(../img/voice.gif) no-repeat right center;
 	height: 20px;
 }
