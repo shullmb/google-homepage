@@ -19,12 +19,15 @@
 #header li {
 	display: inline;
 	float: right;
-	font-size: small;
+
 }
 
-a {
+#header a {
 	text-decoration: none;
 	color: #222222;
+	font-size: small;
+	display: block;
+	padding: 5px;
 }
 
 
@@ -40,6 +43,7 @@ a {
 
 #Moogle {
 	width: 375px;
+}
 	
 input {
 	/*background-repeat: no-repeat;*/
@@ -50,7 +54,7 @@ input {
 	height: 20px;
 }
 
-}
+
 
 #footer {
 	display: block;
@@ -75,8 +79,14 @@ input {
 
 .fRight{
 	float: right;
+	margin-right:20px;
 }
 
-#footer ul li {
+#footer li {
 	display: inline;
+}
+#footer a{
+	text-decoration: none;
+	color: #222222;
+	font-size: small;
 }
