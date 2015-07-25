@@ -22,7 +22,7 @@
 	font-size: small;
 }
 
-#header a {
+a {
 	text-decoration: none;
 	color: #222222;
 }
@@ -42,7 +42,7 @@
 	width: 375px;
 	
 input {
-	background-repeat: no-repeat;
+	/*background-repeat: no-repeat;*/
 }
 
 #voice {
@@ -59,12 +59,22 @@ input {
 	position: fixed;
 	bottom: 0px;
 	background-color: #f0f0f0;
+	font-size:small;
 }
 
 #footer ul {
 	list-style-type: none;
 
 	
+}
+
+
+.fLeft {
+	float: left;
+}
+
+.fRight{
+	float: right;
 }
 
 #footer ul li {
